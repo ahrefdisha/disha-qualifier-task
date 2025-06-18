@@ -1,10 +1,7 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
-    // ❌ Remove or comment out this line
-    // darkMode: 'class',
-    content: [
-      "./src/**/*.{js,jsx,ts,tsx}",
-    ],
+    darkMode: 'class', // ✅ enable class-based dark mode
+    content: ["./src/**/*.{js,jsx}"],
     theme: {
       extend: {},
     },
